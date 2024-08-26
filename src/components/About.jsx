@@ -16,10 +16,9 @@ const About = () => {
             <p className="leading-6 ">
               PeanutBlog An ounce of information A Guide to Groundnut (Peanut)
               Farming <br /> Article by Pnut King A Guide to Groundnut (Peanut)
-              Farming Published on 04/10/2023 in Peanut Farming Peanuts are an
-              ideal farming crop, and are grown extensively in tropical and
-              subtropical regions. Here are the basics for delivering a
-              high-quality harvest
+              Farming in Peanut Farming Peanuts are an ideal farming crop, and
+              are grown extensively in tropical and subtropical regions. Here
+              are the basics for delivering a high-quality harvest
             </p>
           </div>
           <div className="mb-10">
@@ -186,9 +185,9 @@ const About = () => {
             <p className="text-center text-2xl font-bold mb-2">Julian T Park</p>
             <p className="text-center mb-4">
               With over 10 years of experience in the peanut industry and
-              numerous awards recognising his contributions, he founded
-              Agrocrops in 2008, a leading global peanut company. His passion
-              for peanuts drives his commitment to improving the industry for
+              numerous awards recognising her contributions, she founded
+              Agrocrops in 2008, a leading global peanut company. Her passion
+              for peanuts drives her commitment to improving the industry for
               all stakeholders and promoting sustainability.
             </p>
 
