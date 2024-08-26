@@ -1,0 +1,19 @@
+@import url("https://fonts.googleapis.com/css2?family=Outfit:wght@100..900&family=Prata&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400..900;1,400..900&display=swap");
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body {
+  font-family: "outfit", sans-serif;
+}
+
+.playfair {
+  font-family: "playfair", sans-serif;
+}
+
+.ceobg {
+  background-image: url(assets/ceo.jpg);
+  background-position: center;
+  background-size: cover;
+}
