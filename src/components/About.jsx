@@ -4,6 +4,9 @@ import { MdEmail } from "react-icons/md";
 import { FaFacebook } from "react-icons/fa";
 import { FaXTwitter } from "react-icons/fa6";
 import { IoLocationSharp } from "react-icons/io5";
+import nut1 from "../assets/nut1.jpg";
+import nut2 from "../assets/nut2.jpg";
+import nut3 from "../assets/nut3.jpg";
 
 const About = () => {
   return (
@@ -23,9 +26,13 @@ const About = () => {
             </p>
           </div>
           <div className="mb-10">
+            <img src={nut1} alt="" />
+          </div>
+          <div className="mb-10">
             <p className="font-bold text-4xl mb-3 font-mono">
               Groundnut Farming
             </p>
+
             <p className="mb-5">
               Groundnut agriculture, also known as peanut farming, is a
               prominent industry in Asia, particularly in countries like India,
@@ -36,6 +43,9 @@ const About = () => {
               and Arachis genus. This versatile crop thrives in tropical and
               subtropical regions and can grow up to 50 cm in height.{" "}
             </p>
+            <div className="mb-10">
+              <img src={nut2} alt="" />
+            </div>
             <p className="mb-5">
               The significance of groundnut agriculture is underscored by its
               wide-ranging applications. Groundnuts are commonly processed
@@ -96,6 +106,9 @@ const About = () => {
               insights in our guide for expert advice on peanut cultivation,
               optimizing yields, and boosting overall crop performance.{" "}
             </p>
+          </div>
+          <div className="mb-10">
+            <img src={nut3} alt="" />
           </div>
 
           <div className="mb-10">
