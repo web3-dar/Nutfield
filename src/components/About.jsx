@@ -3,6 +3,7 @@ import { FaLinkedin } from "react-icons/fa";
 import { MdEmail } from "react-icons/md";
 import { FaFacebook } from "react-icons/fa";
 import { FaXTwitter } from "react-icons/fa6";
+import { IoLocationSharp } from "react-icons/io5";
 
 const About = () => {
   return (
@@ -204,9 +205,12 @@ const About = () => {
               <FaXTwitter />
               <FaLinkedin />
             </div>
-            <p className="text-center text-[14px]">
-              Location: St Santa Fe, New Mexico(NM), 87501
-            </p>
+            <div className="text-center text-[14px] flex items-center justify-center gap-1">
+              <p>
+                <IoLocationSharp className="text-2xl text-gray-800" />
+              </p>
+              <p>St Santa Fe, New Mexico(NM), 87501</p>
+            </div>
           </div>
         </div>
       </div>
