@@ -10,7 +10,7 @@ import img8 from "../assets/spon8.jpg";
 
 const Support = () => {
   return (
-    <div className="flex justify-center items-center mb-10">
+    <div className="flex justify-center items-center my-10">
       <div className="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-10 md:gap-4 place-items-center">
         {[img1, img2, img3, img4, img5, img6, img7, img8].map((img, index) => (
           <img

@@ -11,8 +11,8 @@ const App = () => {
       <div className="px-5 lg:px-14 mb-10">
         <Navbar />
         <Hero />
-        <Support />
         <About />
+        <Support />
       </div>
       <Footer />
     </>
