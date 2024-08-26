@@ -186,9 +186,9 @@ const About = () => {
             <p className="text-center mb-4">
               With over 10 years of experience in the peanut industry and
               numerous awards recognising her contributions, she founded
-              Agrocrops in 2008, a leading global peanut company. Her passion
-              for peanuts drives her commitment to improving the industry for
-              all stakeholders and promoting sustainability.
+              Nutfield in 2008, a leading global peanut company. Her passion for
+              peanuts drives her commitment to improving the industry for all
+              stakeholders and promoting sustainability.
             </p>
 
             <div className="flex items-center justify-center gap-4">
@@ -198,11 +198,15 @@ const About = () => {
           </div>
           <div className="bg-[#F5F5F5] rounded-2xl py-5">
             <p className="font-bold text-center mb-6">Share this</p>
-            <div className="flex items-center justify-center gap-4">
+
+            <div className="flex items-center justify-center gap-4 mb-2">
               <FaFacebook />
               <FaXTwitter />
               <FaLinkedin />
             </div>
+            <p className="text-center text-[14px]">
+              Location: St Santa Fe, New Mexico(NM), 87501
+            </p>
           </div>
         </div>
       </div>
